@@ -1,0 +1,71 @@
+@media only screen and (min-width: 992px) {
+    .testimonials .testimonial-slider {
+        margin-right: 0px;
+        max-width: 1230px;
+    }
+    .warning-signs .card {
+        min-height: 186px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .banner .card {
+        display: none;
+    }
+    .details .img-wrapper {
+        display: flex;
+        margin-bottom: 1.5rem;
+    }
+    .details .img-wrapper img {
+        margin: auto;
+    }
+    .title {
+        text-align: center;
+    }
+    .doctors .card {
+        margin: 15px 0;
+    }
+    .faq .faq-wrapper a {
+        display: flex;
+    }
+    .faq .faq-wrapper h4 {
+        text-align: left;
+        padding-right: 15px;
+    }
+    .warning-signs .card {
+        min-height: 162px;
+    }
+    .warning-signs .card .img-wrapper {
+        display: flex;
+    }
+    .warning-signs .card .img-wrapper img {
+        margin: auto;
+    }
+    .warning-signs .card p {
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .banner-content h1 {
+        font-size: 36px;
+    }
+    .doctors .card {
+        padding: 1.5rem 2rem;
+    }
+    .testimonials .owl-nav {
+        position: absolute;
+        top: -152px;
+        right: 100px;
+    } 
+} 
+@media only screen and (max-width: 599px) {
+    .banner-content h1 {
+        font-size: 30px;
+    }
+    .doctors .card {
+        padding: 1rem;
+    }
+    .testimonials .owl-nav {
+        top: -178px;
+        right: 8px;
+    }
+}

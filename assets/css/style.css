@@ -1,0 +1,331 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+p {
+    color: #000000;
+}
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+.padded {
+    padding-top: 80px;
+}
+.btn-red {
+    color: #ffffff;
+    background-color: #DD5A6A;
+    border-color: #DD5A6A;
+    font-weight: 500;
+}
+.btn-red:hover {
+    color: #ffffff;
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+.btn-gradient {
+    background: linear-gradient(112deg, rgba(46,196,184,1) 0%, rgba(96,120,234,1) 100%);
+    color: #ffffff;
+    padding: 0.50rem 1rem;
+}
+.btn-gradient:hover{
+    background: linear-gradient(112deg, rgba(96,120,234,1) 0%, rgba(46,196,184,1) 100%);
+    color: #ffffff;
+    padding: 0.50rem 1rem;
+}
+.btn-blue {
+    color: #fff;
+    background: #004498;
+    border-color: #004498;
+    font-weight: 500;
+    padding: 0.75rem 1rem;
+}
+.btn-blue:hover {
+    color: #fff;
+}
+.banner {
+    background: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    padding: 2rem 0;
+}
+.banner-content h1 {
+    font-family: 'Titillium Web', sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 40px;
+    letter-spacing: 1.28px;
+}
+.banner-content .treatment a {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 300;
+    padding: 0 5px;
+    letter-spacing: 3px;
+}
+.banner-content .treatment a:hover {
+    text-decoration: none;
+}
+.banner-content .treatment a:after {
+    content: "";
+    height: 18px;
+    display: inline-block;
+    border-right: 2px solid #ffffff;
+    padding-right: 15px;
+}
+.banner-content .treatment a:last-child::after {
+    content: none;
+}
+.banner-content .btn-red {
+    margin-top: 1.5rem;
+    padding: 0.75rem 1rem;
+}
+
+.banner .card {
+    border-radius: 0px;
+}
+.banner .card h5 {
+    color: #213559;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.banner .card .card-body {
+    padding: 2rem;
+}
+.banner .card .form-control {
+    border-radius: 0px;
+    font-size: 14px;
+    padding: 1rem;
+}
+.banner .card .form-group:last-child {
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+input[type="text"], input[type="email"], input[type="number"] {
+    height: calc(2.2em + .75rem + 2px);
+}
+textarea {
+    resize: none;
+}
+.banner .card .btn-red {
+    border-radius: 0px;
+    padding: 0.50rem 1.5rem;
+}
+.details .card {
+    background: linear-gradient(112deg, rgba(46,196,184,1) -35.15%, rgba(96,120,234,1) 100%);
+    padding: 0.25rem 0.50rem;
+    font-weight: 500;
+    color: #ffffff;
+    border: none;
+    margin-bottom: 3rem;
+}
+.details .card h6 {
+    font-size: 18px;
+    line-height: 26px;
+}
+.details p {
+    font-size: 17px;
+    line-height: 20px;
+    color: #000000;
+    margin: 2rem 0;
+    padding: 0 0.5rem;
+}
+.details p:after {
+    content: '';
+    border-bottom: 1px solid #ECECFF;
+    width: 100%;
+    display: block;
+    margin-top: 2rem;
+}
+.details p:last-child::after {
+    content: none;
+}
+.bold {
+    font-weight: bold;
+}
+.green {
+    color: #22B78E;
+}
+.blue {
+    color: #1D5AA6;
+}
+.doctors h3 {
+    font-size: 24px;
+    margin-bottom: 2rem;
+}
+.doctors h4 {
+    margin: 1rem 0 0.5rem;
+}
+.doctors .card {
+    background: #F9F9FF;
+    border: none;
+    text-align: center;
+}
+.doctors .card .designation:after {
+    content: '';
+    border-bottom: 2px solid #22B78E;
+    width: 8%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.doctors .btn-gradient {
+    margin-top: 1rem;
+}
+.doctors .card hr {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+.types p:before {
+    content: url('../img/icon.png');
+    padding-right: 1rem;
+    margin-top: 3px;
+}
+.types p {
+    display: flex;
+}
+.title {
+    margin-bottom: 2rem;
+    font-weight: bold;
+    color: #22B78E;
+}
+.warning-signs .card img {
+    padding-bottom: 0.75rem;
+}
+.warning-signs .card {
+    border: 1px solid #E5EAFF;
+    margin: 15px 0;
+}
+.warning-signs .card .img-wrapper {
+    min-height: 56px;
+}
+.faq .faq-wrapper a {
+    width: 100%;
+    padding: 0px;
+    color: #1D5AA6;
+}
+.faq .faq-wrapper i {
+    font-size: 30px;
+}
+.faq .faq-wrapper .faqHeading:after {
+    content: '';
+    border-bottom: 1px solid #ECECFF;
+    width: 100%;
+    display: block;
+    margin: 1.5rem 0;
+}
+.faq .faq-wrapper .faqContent {
+    margin-bottom: 3rem;
+}
+.faq .faq-wrapper h4 {
+    margin: 0px;
+}
+.faq .faq-wrapper .faq-answer {
+    display: flex;
+}
+.faq .faq-wrapper .faq-answer:before {
+    content: url('../img/icons/double-tick.png');
+    padding-right: 1rem;
+}
+.title-area {
+    margin-bottom: 2rem;
+}
+.testimonials h2 {
+    color: #22B78E;
+    margin-bottom: 1rem;
+}
+.testimonials .author {
+    display: flex;
+    align-items: center;
+}
+.testimonials .author-details {
+    padding-left: 1rem;
+}
+.testimonials .author-details h4,
+.testimonials .author-details p {
+    margin: 0px;
+}
+.testimonials .author-details:after {
+    content: '';
+    border-bottom: 1px solid #eae7e7;
+    width: 33%;
+    display: block;
+    margin-top: 5px;
+}
+.testimonials .card .quotes {
+    padding-top: 1.5rem;
+}
+.testimonials .testimonial-slider .testimonial-column {
+    padding: 0px;
+}
+.testimonials {
+    position: relative;
+}
+.testimonials .owl-nav {
+    position: absolute;
+} 
+.testimonials .owl-nav .owl-prev i,
+.testimonials .owl-nav .owl-next i {
+    font-size: 24px;
+    color: #e2e2e2;
+}
+.testimonials .card {
+    border: none;
+    box-shadow: 9px 8px 27px 0 rgba(0, 0, 0, 0.04);
+}
+.testimonials .btn-wrapper {
+    text-align: center;
+    margin: 3rem 0;
+    
+}
+footer {
+    background-color: #272727;
+    padding: 60px 0;
+}
+footer .social-links {
+    margin: auto;
+}
+footer .social-links a {
+    margin: 3px;
+}
+footer .copyright:before {
+    content: '';
+    border-top: 1px solid rgba(255, 255, 255, 0.21);
+    width: 100%;
+    display: block;
+    margin: 2rem 0;
+}
+footer .copyright p {
+    color: #fff;
+    margin: 0px;
+}
+#scroll {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    display: none;
+    border-radius: 3px;
+    box-shadow: 0 6px 3px rgb(31 31 31 / 11%), 0 3px 6px rgb(14 14 14 / 23%);
+}
+#scroll span {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #004498;
+    font-size: 24px;
+}

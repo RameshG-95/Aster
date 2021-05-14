@@ -1,0 +1,39 @@
+/* titillium-web-regular - latin */
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../font/titillium-web/titillium-web-v9-latin-regular.eot');
+  src: local(''),
+       url('../font/titillium-web/titillium-web-v9-latin-regular.eot?#iefix') format('embedded-opentype'),
+       url('../font/titillium-web/titillium-web-v9-latin-regular.woff2') format('woff2'),
+       url('../font/titillium-web/titillium-web-v9-latin-regular.woff') format('woff'),
+       url('../font/titillium-web/titillium-web-v9-latin-regular.ttf') format('truetype'),
+       url('../font/titillium-web/titillium-web-v9-latin-regular.svg#TitilliumWeb') format('svg');
+}
+/* titillium-web-600 - latin */
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../font/titillium-web/titillium-web-v9-latin-600.eot');
+  src: local(''),
+       url('../font/titillium-web/titillium-web-v9-latin-600.eot?#iefix') format('embedded-opentype'),
+       url('../font/titillium-web/titillium-web-v9-latin-600.woff2') format('woff2'),
+       url('../font/titillium-web/titillium-web-v9-latin-600.woff') format('woff'),
+       url('../font/titillium-web/titillium-web-v9-latin-600.ttf') format('truetype'),
+       url('../font/titillium-web/titillium-web-v9-latin-600.svg#TitilliumWeb') format('svg');
+}
+/* titillium-web-700 - latin */
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../font/titillium-web/titillium-web-v9-latin-700.eot');
+  src: local(''),
+       url('../font/titillium-web/titillium-web-v9-latin-700.eot?#iefix') format('embedded-opentype'),
+       url('../font/titillium-web/titillium-web-v9-latin-700.woff2') format('woff2'),
+       url('../font/titillium-web/titillium-web-v9-latin-700.woff') format('woff'),
+       url('../font/titillium-web/titillium-web-v9-latin-700.ttf') format('truetype'),
+       url('../font/titillium-web/titillium-web-v9-latin-700.svg#TitilliumWeb') format('svg');
+}
